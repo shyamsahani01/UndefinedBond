@@ -2,5 +2,9 @@
     <string name="app_name">UndefinedBond</string>
     <string name="app_short_name">UB</string>
     <string name="app_name_in_color"><font color='red'>UN</font><font color='#FF1493'>DE</font><font color='#FFA500'>FI</font><font color='#006400'>NED</font> <font color='#87CEEB'>LO</font><font color='#8F00FF'>VE</font></string>
-    <string name="app_name_simple">LOVEABLE</string>
+    <!--    <string name="app_name_simple">LOVEABLE</string>-->
+    <string name="app_name_simple">PURE BOND</string>
+    <string name="loginHeading1">Login Using Social Media</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
 </resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.LoginActivity"
+    android:background="@drawable/logo_gradient">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100dp"
+            android:backgroundTintMode="screen"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/heart_3"
+            app:tint="@color/pink"
+            android:layout_marginTop="100sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name_simple"
+            android:textSize="40dp"
+            android:textColor="#C83769"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginHeading1"
+            android:textSize="20dp"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="120sp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp">
+
+            <ImageView
+                android:layout_width="60sp"
+                android:layout_height="60dp"
+                android:backgroundTintMode="screen"
+                android:elevation="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/facebook" />
+
+
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10sp"
+                android:scaleType="fitXY"
+                android:backgroundTintMode="screen"
+                android:elevation="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gmail" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
