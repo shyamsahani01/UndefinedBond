@@ -7,4 +7,6 @@
     <string name="loginHeading1">Login Using Social Media</string>
     <string name="next">Next</string>
     <string name="back">Back</string>
+    <string name="hetero">Hetero Sexual</string>
+    <string name="homo">Homo Sexual</string>
 </resources>
